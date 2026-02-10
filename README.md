@@ -196,7 +196,7 @@ python -m vllm.entrypoints.openai.api_server \
 ```
 
 > 💡 **Tips:**
-> IMPORTANT: Must use `VLLM=0.11.0`
+> - IMPORTANT: Must use `VLLM=0.11.0`
 > - Adjust `--tensor-parallel-size` based on your GPU count for multi-GPU inference
 > - The model will be served at `http://localhost:8000/v1`
 
