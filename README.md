@@ -180,10 +180,10 @@ HuggingFace model path:
 
 Deploy the model using vLLM:
 
-`IMPORTANT: Must use VLLM=0.11.0`
+
 ```bash
 # Install vLLM
-pip install vllm  # vllm==0.11.0 and transformers>=4.57.0
+pip install vllm==0.11.0  # vllm==0.11.0 and transformers>=4.57.0
 
 # Start vLLM API server (replace MODEL_PATH with your local model path or HuggingFace model ID)
 python -m vllm.entrypoints.openai.api_server \
@@ -196,6 +196,7 @@ python -m vllm.entrypoints.openai.api_server \
 ```
 
 > 💡 **Tips:**
+> IMPORTANT: Must use `VLLM=0.11.0`
 > - Adjust `--tensor-parallel-size` based on your GPU count for multi-GPU inference
 > - The model will be served at `http://localhost:8000/v1`
 
