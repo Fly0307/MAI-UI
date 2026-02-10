@@ -4,8 +4,8 @@ This repository contains the evaluation code for the **MAI-UI** model series on 
 
 ## 🛠️ Environment Setup
 
-To set up the environment, run the following commands:
-
+To set up the environment, run the following commands:    
+`IMPORTANT: Must Use VLLM==0.11.0`
 ```bash
 conda create -n grounding python=3.12
 conda activate grounding
