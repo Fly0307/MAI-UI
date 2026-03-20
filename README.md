@@ -23,6 +23,7 @@ We present **MAI-UI**, a family of GUI agent foundation models spanning the full
 </p>
 
 ## 📰 News
+* **[2026-03-20]** 📄 **Blog Posts**: Our [Grounding](https://tongyi-mai.github.io/MAI-UI-blog/Grounding-Blog) and [Navigation](https://tongyi-mai.github.io/MAI-UI-blog/MobileWorld-Blog-Post) Blog Posts are available! 
 * **[2026-01-15]** 🥇 **New Record on AndroidWorld**: MAI-UI-235B takes #1 on the [AndroidWorld Leaderboard](https://docs.google.com/spreadsheets/d/1cchzP9dlTZ3WXQTfYNhh3avxoLipqHN75v1Tb86uhHo/edit?gid=0#gid=0) for pure-vision, end-to-end models with a 76.7% success rate.
 * **[2026-01-13]** 🥇 **MAI-UI Sweeps ScreenSpot-Pro**: MAI-UI (32B, 8B, 2B) now ranks #1 in all size categories on the [ScreenSpot-Pro leaderboard](https://gui-agent.github.io/grounding-leaderboard/). We achieved record scores of 67.9%, 65.7%, and 57.4% respectively—notably reaching these benchmarks **without any zoom-in tricks**.
 * **[2026-01-04]** 🤝 We're Hiring! We're actively looking for Research Scientists, Engineers, and Interns to work on foundational GUI agents and their applications. Interested candidates please send your resume to: yue.w@alibaba-inc.com
